@@ -68,33 +68,53 @@ This project presents a comprehensive EDA on **Airbnb listings data in New York 
 
 ## 📸 Visual Highlights
 
-### 📦 Price Distribution (with outliers)
+### 1️⃣ Boxplot of Prices  
+Shows a long right tail and presence of extreme price outliers.
 ![Boxplot](./1.png)
-
-### 💵 Histogram of Prices
-![Price Histogram](./2.png)
-
-### 📆 Availability Distribution
-![Availability](./3.png)
-
-### 🏙️ Price by Room Type & Neighbourhood
-![Grouped Barplot](./4.png)
-
-### 🔁 Price vs Number of Reviews
-![Scatterplot](./5.png)
-
-### 🧠 Pairwise Relationships
-![Pairplot](./6.png)
-
-### 🌍 Geographic Distribution of Listings
-![Map Plot](./7.png)
-
-### 🔥 Feature Correlation Matrix
-![Correlation Heatmap](./8.png)
 
 ---
 
-## 💡 Why This Project?
+### 2️⃣ Price Distribution Histogram  
+Majority of listings are priced below $300, indicating a skewed distribution.
+![Price Histogram](./2.png)
+
+---
+
+### 3️⃣ Availability Distribution  
+Many listings are either fully available (365 days) or rarely available.
+![Availability](./3.png)
+
+---
+
+### 4️⃣ Price by Room Type and Neighbourhood  
+Entire homes/apartments in Manhattan have the highest average prices.
+![Grouped Barplot](./4.png)
+
+---
+
+### 5️⃣ Price vs Number of Reviews  
+Listings with fewer reviews tend to have higher prices, indicating possible new or premium listings.
+![Scatterplot](./5.png)
+
+---
+
+### 6️⃣ Pairplot: Multivariate Analysis  
+Visualizing multiple variable relationships simultaneously segmented by room types.
+![Pairplot](./6.png)
+
+---
+
+### 7️⃣ Geographical Distribution of Listings  
+Mapped spread of Airbnb listings in NYC. Heavy clustering in Manhattan and Brooklyn.
+![Map Plot](./7.png)
+
+---
+
+### 8️⃣ Correlation Heatmap  
+Low correlation of price with most variables, but some insight from reviews and availability.
+![Correlation Heatmap](./8.png)
+
+---
 
 This project demonstrates my ability to:
 - Clean, analyze, and visualize real-world data
@@ -102,7 +122,3 @@ This project demonstrates my ability to:
 - Communicate technical findings in an intuitive format
 
 ---
-
-⭐ *If you found this useful or insightful, feel free to star this repo!*
-
-📌 **Note**: This project was done for learning and demonstration purposes using open-source Airbnb data.
