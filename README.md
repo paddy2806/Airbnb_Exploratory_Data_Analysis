@@ -16,6 +16,34 @@ This project presents a comprehensive EDA on **Airbnb listings data in New York 
 
 ---
 
+## 🧭 Steps Performed
+
+1. **Dataset Import & Initial Exploration**  
+   - Loaded the dataset and examined shape, columns, data types, and missing values.
+
+2. **Data Cleaning**  
+   - Removed unnecessary columns, handled missing values, and treated data inconsistencies.
+
+3. **Univariate Analysis**  
+   - Analyzed distributions of variables like `price`, `availability_365`, `room_type`, etc.
+
+4. **Outlier Detection**  
+   - Used boxplots to visualize price outliers and applied thresholds to manage skewness.
+
+5. **Bivariate & Multivariate Analysis**  
+   - Explored relationships between `price`, `room_type`, `neighbourhood_group`, `number_of_reviews`, and `availability`.
+
+6. **Geospatial Analysis**  
+   - Mapped listings using `latitude` and `longitude` to understand neighborhood clustering.
+
+7. **Correlation Heatmap**  
+   - Identified numeric correlations to detect strong/weak relationships across features.
+
+8. **Visualization & Insights**  
+   - Created insightful plots using Seaborn and Matplotlib to reveal patterns.
+
+---
+
 ## 🛠️ Tools & Technologies
 
 | Tool / Library     | Description                             |
